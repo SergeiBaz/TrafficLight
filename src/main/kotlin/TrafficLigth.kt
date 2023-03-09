@@ -1,6 +1,5 @@
 class TrafficLight {
     fun allowMovement(){  // Разрешить движение
-        //
 
     }
 
