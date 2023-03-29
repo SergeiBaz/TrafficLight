@@ -1,0 +1,20 @@
+fun main(args: Array<String>) {
+    val trafficLight = TrafficLight()
+
+    trafficLight.printLamps()
+    println()
+    trafficLight.allowToMove()
+    trafficLight.printLamps()
+    println()
+    trafficLight.denyToMove()
+    trafficLight.printLamps()
+    println()
+    trafficLight.warnOfTrafficRestrictions()
+    trafficLight.printLamps()
+    println()
+    trafficLight.attentionStop()
+    trafficLight.printLamps()
+    println()
+    trafficLight.getReadyToStart()
+    trafficLight.printLamps()
+}
